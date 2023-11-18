@@ -1,0 +1,113 @@
+/* Common styles for all pages */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Specific styles for each page */
+
+/* childhood.css */
+.childhood {
+    background-color: #ecf0f1;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.childhood h2 {
+    color: #3498db;
+}
+
+/* education.css */
+.education {
+    background-color: #ecf0f1;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    color: #27ae60;
+}
+
+/* skills.css */
+.skills {
+    background-color: #ecf0f1;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    color: #e67e22;
+}
+
+/* aspirations.css */
+.aspirations {
+    background-color: #ecf0f1;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aspirations h2 {
+    color: #9b59b6;
+}
+
+/* contact.css */
+.contact {
+    background-color: #ecf0f1;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    color: #e74c3c;
+}
